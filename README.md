@@ -4,7 +4,7 @@
 ## Synopsis
 Android application (Client Module) to simulate Parallel Computing using several android devices. This application makes use of the Merge Sort algorithm for simulation purpose.
 
-For Server Module Check Repo: [https://](https://)
+For Server Module Check Repo: [https://github.com/roshanlasrado94/Parallel-Mergesort-Server](https://github.com/roshanlasrado94/Parallel-Mergesort-Server)
 
 
 ## Motivation
