@@ -20,7 +20,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="Server IP address"
+            android:hint="@string/server_ip_addess"
             android:inputType="text" />
 
         <EditText
@@ -28,7 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.25"
-            android:hint="Port Number"
+            android:hint="@string/port_number"
             android:inputType="number" />
     </LinearLayout>
 
@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/addrHolder"
-        android:text="Connect" />
+        android:text="@string/connect" />
 
     <ScrollView
         android:id="@+id/scrollPrompt"
@@ -52,7 +52,7 @@
             android:id="@+id/txtPrompt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Parallel Client [ Version 1.0 ]\n&#169; 2016 PDC Project\nDoCE - DBIT"
+            android:text="@string/init_message"
             android:textColor="@color/abc_search_url_text"
             android:textSize="18sp" />
     </ScrollView>
