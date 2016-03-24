@@ -1,7 +1,7 @@
 package com.roshan.parallelclient;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,10 +10,6 @@ import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 
 public class HomeActivity extends ActionBarActivity {
 
@@ -21,8 +17,6 @@ public class HomeActivity extends ActionBarActivity {
     static ScrollView promptScroll;
     EditText ipAddr, portAddr;
     Button btnConnect;
-    List<Integer> randomArray;
-    int nRandom;
     RosChatClient chatClient;
 
     @Override
@@ -38,8 +32,7 @@ public class HomeActivity extends ActionBarActivity {
 
         btnConnect.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 chatClient = new RosChatClient(ipAddr.getText().toString(), Integer.parseInt(portAddr.getText().toString()), getBaseContext());
                 ipAddr.setFocusable(false);
                 portAddr.setFocusable(false);
