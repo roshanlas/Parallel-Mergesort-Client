@@ -2,10 +2,11 @@
 # Android Parallel Computing Mergesort Client
 
 ## Synopsis
-Android application (Client Module) to simulate Parallel Computing using several android devices. This application makes use of the Merge Sort algorithm for simulation purpose. The server application distributes the processing task among all connected Client devices. In case of multiple Clients performing parallel computing, the Server does the final Merge operation.
+Android application (Client Module) to simulate Parallel Computing using several android devices. This application makes use of the Merge Sort algorithm for simulation purpose.
 
 For Server Module Check Repo: [https://github.com/roshanlasrado94/Parallel-Mergesort-Server](https://github.com/roshanlasrado94/Parallel-Mergesort-Server)
 
+The server application distributes the processing task among all connected Client devices. In case of multiple Clients performing parallel computing, the Server does the final Merge operation.
 
 ## Motivation
 This application was developed for learning purposes. This technique, if implemented at the kernal level with a faster communication mechanism, will help to distribute the processing of an android device among several others.
